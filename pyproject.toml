@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "opsf_package_spartajet"
+version = "0.0.1"
+authors = [
+  { name="Xiaozhong Guo", email="guoxiaozhong@zstu.edu.cn" },
+]
+description = "ISO/TS 16610-22 Open profile spline filter, refer to https://ww2.mathworks.cn/matlabcentral/fileexchange/52562-surface-metrology-open-profile-spline-filter?s_tid=srchtitle"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
